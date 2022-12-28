@@ -3,8 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { NavBarComponent } from './modulos/usuarios/nav-bar/nav-bar.component';
 
 const routes: Routes = [
-  {path: 'home', component: NavBarComponent},
-  {path: '**', pathMatch: 'full', redirectTo: 'home'}
+  {path: '', component: NavBarComponent},
+  {path: '**', pathMatch: 'full', redirectTo: ''}
 ];
 
 @NgModule({
